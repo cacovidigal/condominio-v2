@@ -18,4 +18,10 @@ function adicionarLinha() {
     cell4.innerHTML = fim;
     cell5.innerHTML = historico;
   }
+
+  //limpar os campos apos a inclusão da linha
+  //criar um comando de editar 
+  //criar um comando de deletar
+  //criar um comando de salvar 
+  //crir um comando para exportar para um pdf
   
