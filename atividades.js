@@ -17,9 +17,15 @@ function adicionarLinha() {
     cell3.innerHTML = inicio;
     cell4.innerHTML = fim;
     cell5.innerHTML = historico;
+    //limpar os campos apos a inclusão da linha
+    document.getElementById("inserir_atividade").value = "";
+    document.getElementById("inserir_responsavel").value = "";
+    document.getElementById("inserir_data_inicio").value = "";
+    document.getElementById("inserir_data_fim").value = "";
+    document.getElementById("inserir_histórico").value = "";
   }
 
-  //limpar os campos apos a inclusão da linha
+  
   //criar um comando de editar 
   //criar um comando de deletar
   //criar um comando de salvar 
